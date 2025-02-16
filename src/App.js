@@ -31,7 +31,7 @@ export default function Tabs() {
         ))}
       </div>
       <div className="mt-4 text-center">
-        <p className="text-lg">Şu anda '{currentTab}' sekmesindesiniz.</p>
+        <p className="text-lg">Şu anda {currentTab} sekmesindesiniz.</p>
       </div>
       <div className="mt-4">
         {currentTab === "Hesabım" && <div>Hesap formu</div>}
